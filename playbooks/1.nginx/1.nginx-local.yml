@@ -66,7 +66,7 @@
     - name: Copy style.css file
       copy:
         src: /tmp/nginxfiles/styles.css
-        dest: /var/www/html/styles.css
+        dest: /var/www/html/style.css
         owner: root
         group: root
         mode: "0644"
