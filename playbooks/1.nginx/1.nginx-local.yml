@@ -65,7 +65,7 @@
 
     - name: Copy style.css file
       copy:
-        src: /tmp/nginxfiles/style.css
+        src: /tmp/nginxfiles/styles.css
         dest: /var/www/html/styles.css
         owner: root
         group: root
